@@ -1,0 +1,32 @@
+
+# 🚀 共通（macOS, IDE, OS関係）
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# 🚀 バックエンド (Django)
+backend/db.sqlite3         # SQLite データベース（PostgreSQL なら不要）
+backend/.env               # 環境変数ファイル
+backend/venv/              # Python 仮想環境
+backend/__pycache__/       # Python キャッシュ
+backend/migrations/        # マイグレーションファイル（手動管理の場合）
+
+# Djangoログ・キャッシュ・その他
+backend/logs/
+backend/media/             # ユーザーがアップロードしたファイル（別で管理）
+backend/staticfiles/       #  で生成される静的ファイル
+backend/static/            #  に設定されるディレクトリ
+
+# 🚀 フロントエンド (Flutter)
+speech_app/build/
+speech_app/.dart_tool/
+speech_app/.flutter-plugins
+speech_app/.flutter-plugins-dependencies
+speech_app/.packages
+
+# 🚀 一時ファイル
+*.log
+*.tmp
+
