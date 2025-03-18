@@ -1,0 +1,44 @@
+
+
+
+# Python 関連
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 環境設定ファイル（仮想環境）
+.env
+*.env
+venv/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django の設定ファイル
+db.sqlite3
+instance/
+*.log
+
+# Django migrations（マイグレーションキャッシュ）
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# メディア・アップロードファイル（ユーザーがアップロードするファイル）
+media/
+uploads/
+
+# 静的ファイル（自動生成されるため不要）
+staticfiles/
+static/
+
+# IDE・エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS 特有の不要ファイル
+.DS_Store
+Thumbs.db
